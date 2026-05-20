@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFusion - Our Menu</title>
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    
+    <!-- Internal CSS as requested -->
+    <style>
+        .menu-category-title {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #1E5631;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .menu-section {
+            background-color: #eafbe4;
+            padding: 50px 0;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+        .menu-item {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .menu-item img {
+            width: 120px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .menu-item h5 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .menu-item .price-tag {
+            font-weight: bold;
+            color: #4C9A2A;
+            margin-bottom: 10px;
+        }
+        .menu-item .btn {
+            padding: 5px 20px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Images/logo.jpeg" alt="Logo"> FreshFusion
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="section-title">OUR MENU</h2>
+        <p class="text-center mb-5" style="font-size: 1.1rem; color: #555;">Fresh, healthy smoothies made just for you</p>
+        
+        <section class="menu-section">
+            <div class="row text-center px-4">
+                <div class="col-md-4">
+                        <h3 class="menu-category-title">Fruit Smoothies</h3>
+                    <article class="menu-item">
+                        <img src="../Images/strawberrybanana.jpeg" alt="Strawberry Banana" class="mx-auto d-block">
+                        <h5>Strawberry Banana</h5>
+                        <p class="price-tag">P40</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/mangopineapple.jpeg" alt="Mango Pineapple" class="mx-auto d-block">
+                        <h5>Mango Pineapple</h5>
+                        <p class="price-tag">P45</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/peachblueberry.jpeg" alt="Peach Blueberry" class="mx-auto d-block">
+                        <h5>Peach Blueberry</h5>
+                        <p class="price-tag">P45</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3 class="menu-category-title">Green Smoothies</h3>
+                    <article class="menu-item">
+                        <img src="../Images/green-detox.jpeg" alt="Green Detox" class="mx-auto d-block">
+                        <h5>Green Detox</h5>
+                        <p class="price-tag">P50</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/tropicalcleanse.jpeg" alt="Tropical Cleanse" class="mx-auto d-block">
+                        <h5>Tropical Cleanse</h5>
+                        <p class="price-tag">P45</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/citrusginger.jpeg" alt="Citrus Ginger" class="mx-auto d-block">
+                        <h5>Citrus Ginger</h5>
+                        <p class="price-tag">P45</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="menu-category-title">Protein Smoothies</h3>
+                    <article class="menu-item">
+                        <img src="../Images/bananaoat.jpeg" alt="Banana Oat" class="mx-auto d-block">
+                        <h5>Banana Oat</h5>
+                        <p class="price-tag">P45</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/coffeeprotein.jpeg" alt="Coffee Protein" class="mx-auto d-block">
+                        <h5>Coffee Protein</h5>
+                        <p class="price-tag">P50</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                    <article class="menu-item">
+                        <img src="../Images/chocolatealmond.jpeg" alt="Chocolate Almond" class="mx-auto d-block">
+                        <h5>Chocolate Almond</h5>
+                        <p class="price-tag">P50</p>
+                        <a href="order.html" class="btn btn-primary-custom btn-sm">Add to cart</a>
+                    </article>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="order.html" class="btn btn-primary-custom" style="font-size: 1.2rem; padding: 10px 40px;">Order Now</a>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5 rounded overflow-hidden" style="position: relative;">
+            <img src="../Images/discountedmilkshakes.jpeg" alt="Big Deals of the Week" class="img-fluid w-100" style="height: 250px; object-fit: cover;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); display: flex; flex-direction: column; justify-content: center; align-items: flex-end; padding-right: 10%;">
+                <h3 class="text-white fw-bold mb-2">Big Deals of the Week</h3>
+                <h4 class="text-white">10% Off your first order</h4>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Contact</h5>
+                    <p><img src="../Images/phoneicon.jpeg" alt="Phone" style="width:20px; margin-right:5px;"> +267 73 378 710</p>
+                    <p>Smoothies@freshfusion.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <div class="footer-links">
+                        <a href="../index.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="order.html">Order</a>
+                        <a href="about.html">About</a>
+                        <a href="feedback.html">Feedback</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white d-block mb-2"><img src="../Images/facebookicon.jpeg" alt="FB" style="width:20px; border-radius:50%;"> Facebook</a>
+                        <a href="#" class="text-white d-block mb-2"><img src="../Images/tiktokicon.jpeg" alt="TikTok" style="width:20px; border-radius:50%;"> TikTok</a>
+                        <a href="#" class="text-white d-block"><img src="../Images/instagramicon.jpeg" alt="IG" style="width:20px; border-radius:50%;"> Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 border-top border-secondary pt-3">
+                <p>&copy; 2026 Fresh Fusion Smoothie. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
